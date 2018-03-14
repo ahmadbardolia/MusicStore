@@ -11,6 +11,10 @@
     <DebugType Condition="'$(TargetFramework)' == 'net461'">full</DebugType>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <RunOctoPack>true</RunOctoPack>
+  </PropertyGroup>
+
   <ItemGroup>
     <Content Update="ForTesting\**\*" CopyToPublishDirectory="Never" Condition=" '$(PublishForTesting)' != 'true' " />
   </ItemGroup>
